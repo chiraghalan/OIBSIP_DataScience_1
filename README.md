@@ -18,14 +18,12 @@ The objective of this project is to build and evaluate classification models tha
 ### 3. **Data Preprocessing**
 - Split the dataset into **training and testing sets** using `train_test_split`.
 - Scaled the features using **StandardScaler** for better model performance.
-- Used **PCA (Principal Component Analysis)** to visualize feature variance reduction and dimensionality.
 
 ### 4. **Model Training**
 - Implemented two classification algorithms:
   - **K-Nearest Neighbors (KNN)**
   - **Random Forest Classifier**
 - Used a **Pipeline** for streamlined preprocessing and training.
-- Performed **GridSearchCV** for hyperparameter tuning.
 
 ### 5. **Model Evaluation**
 - Evaluated accuracy on test data.
